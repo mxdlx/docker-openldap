@@ -1,0 +1,5 @@
+dn: cn=config
+objectClass: olcGlobal
+cn: config
+olcArgsFile: /opt/openldap/var/run/slapd.args
+olcPidFile: /opt/openldap/var/run/slapd.pid

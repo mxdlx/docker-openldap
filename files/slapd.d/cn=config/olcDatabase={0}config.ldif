@@ -1,0 +1,6 @@
+dn: olcDatabase={0}config
+objectClass: olcDatabaseConfig
+olcDatabase: {0}config
+olcRootDN: cn=admin,cn=config
+olcRootPW: {SSHA}FV9io0qll7vLkMttWxbZjovrzhQA5V6f
+olcAccess: {0}to * by dn.base="cn=admin,cn=config" manage by * none

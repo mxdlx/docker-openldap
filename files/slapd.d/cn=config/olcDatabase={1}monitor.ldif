@@ -1,0 +1,5 @@
+dn: olcDatabase={1}monitor
+objectClass: olcDatabaseConfig
+olcDatabase: {1}monitor
+olcRootDN: cn=admin,cn=config
+olcAccess: {0}to * by dn.base="cn=admin,cn=config" manage by * none
